@@ -1,5 +1,5 @@
 .hero {
-    background: url("/assets/images/pattern-light-bg.svg") top no-repeat, url("/assets/images/pattern-glow.svg") bottom left no-repeat, #FAF5F3;
+    background: url("../assets/images/pattern-light-bg.svg") top no-repeat, url("../assets/images/pattern-glow.svg") bottom left no-repeat, #FAF5F3;
     padding-top: clamp(1.5rem, 0.751vw + 1.324rem, 2rem);
     padding-left: clamp(1rem, 11.174vw - 1.619rem, 8.438rem);
     padding-right: clamp(1rem, 11.174vw - 1.619rem, 8.438rem);

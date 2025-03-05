@@ -17,7 +17,7 @@
     max-width: fit-content;
 }
 .membership-tier-container + .pro {
-    background: url("/assets/images/pattern-glow.svg") top left no-repeat, #FAF5F3;
+    background: url("../assets/images/pattern-glow.svg") top left no-repeat, #FAF5F3;
 }
 .membership-tier-container p {
     font-family: "Inter";
@@ -50,7 +50,7 @@
     display: inline-block;
     height: 24px;
     width: 24px;
-    background-image: url("/assets/images/icon-check.svg");
+    background-image: url("../assets/images/icon-check.svg");
     background-size: 24px;
     background-repeat: no-repeat;
     margin-right: 12px;

@@ -1,30 +1,30 @@
 @font-face {
     font-family: 'Martian Mono';
-    src: url("/assets/fonts/martian-mono/static/MartianMono-Regular.ttf") format("truetype");
+    src: url("../assets/fonts/martian-mono/static/MartianMono-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'Martian Mono Bold';
-    src: url("/assets/fonts/martian-mono/static/MartianMono-Bold.ttf") format("truetype");
+    src: url("../assets/fonts/martian-mono/static/MartianMono-Bold.ttf") format("truetype");
     font-weight: bold;
     font-style: normal;
 }
 @font-face {
     font-family: 'Martian Mono SemiBold';
-    src: url("/assets/fonts/martian-mono/static/MartianMono-SemiBold.ttf") format("truetype");
+    src: url("../assets/fonts/martian-mono/static/MartianMono-SemiBold.ttf") format("truetype");
     font-weight: 600;
     font-style: normal;
 }
 @font-face {
     font-family: "Inter";
-    src: url("/assets/fonts/inter/static/Inter_18pt-Regular.ttf") format("truetype");
+    src: url("../assets/fonts/inter/static/Inter_18pt-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: "Inter SemiBold";
-    src: url("/assets/fonts/inter/static/Inter_18pt-SemiBold.ttf") format("truetype");
+    src: url("../assets/fonts/inter/static/Inter_18pt-SemiBold.ttf") format("truetype");
     font-weight: 600;
     font-style: normal;
 }
