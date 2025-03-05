@@ -1,0 +1,91 @@
+.club-features {
+    padding: clamp(4rem, 5.258vw + 2.768rem, 7.5rem) clamp(1rem, 11.174vw - 1.619rem, 8.438rem);
+}
+.read-together {
+    margin-bottom: clamp(4rem, 5.258vw + 2.768rem, 7.5rem);
+}
+.read-together > div > ul {
+    margin-top: 24px;
+    margin-bottom: 32px;
+    list-style-type: none;
+    padding: 0;
+}
+.read-together > div > ul > li::before {
+    content: '';
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    background-image: url("/assets/images/icon-check.svg");
+    background-size: 24px;
+    background-repeat: no-repeat;
+    margin-right: 12px;
+}
+.read-together > div > ul > li {
+    font-family: "Inter";
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: -0.5px;
+    color: #385159;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+.read-together picture > img {
+    border-radius: 10px;
+}
+.not-average-club {
+    position: relative;
+}
+.not-average-club p {
+    font-family: "Inter";
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: -0.5px;
+    color: #385159;
+    margin-top: 24px;
+    margin-bottom: 40px;
+    position: relative;
+}
+.not-average-club p > span {
+    font-family: "Inter SemiBold";
+}
+.not-average-club picture > img {
+    border-radius: 10px;
+}
+.not-average-club .tech-logos {
+    display: none;
+}
+.not-average-club .circle {
+    background-image: url("/assets/images/pattern-circle.png");
+    background-clip: padding-box;
+    background-position: left center;
+    background-size: 100% 100%;
+}
+@media screen and (min-width: 768px) {
+    .not-average-club .tech-logos {
+        display: inline-block;
+        position: absolute;
+        right: 50px;
+        bottom: 50px;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .not-average-club {
+        display: flex;
+        flex-direction: row;
+    }
+    .not-average-club picture {
+        margin-left: 80px;
+    }
+    .not-average-club .tech-logos {
+        right: 520px;
+        bottom: 31px;
+    }
+    .read-together {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .read-together picture {
+        margin-right: 80px;
+    }
+}
