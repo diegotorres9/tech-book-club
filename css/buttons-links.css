@@ -5,7 +5,7 @@
     background: linear-gradient(90deg, #FFF5EF 0%, #FFF5EF 100%) 0/ 200%;
     background-position: 0 200%;
     border-radius: 8px;
-    border: solid #062630;
+    border: 2px solid #062630;
     padding: 20px 24px;
     display: flex;
     align-items: center;
@@ -20,6 +20,10 @@
 .membership-link_header:hover {
     cursor: pointer;
     background: linear-gradient(90deg, #FFE2D1 0%, #FFF5EF 100%) 100%/ 200%;
+}
+.membership-link_header:focus {
+    outline: 2px solid #385159;
+    outline-offset: 2px;
 }
 .membership-link_header svg {
     margin-left: 16px;
@@ -48,6 +52,10 @@
     cursor: pointer;
     background: linear-gradient(90deg, #385159 0%, #062630 100% ) 0/ 200%;
 }
+.membership-link_footer:focus {
+    outline: 2px solid #FAF5F3;
+    outline-offset: 2px;
+}
 .membership-link_footer svg {
     margin-left: 16px;
 }
@@ -72,6 +80,10 @@
 .membership-subscribe_btn:hover {
     cursor: pointer;
     background: linear-gradient(90deg, #FFE2D1 0%, #FFF5EF 100%) 100% 200%;
+}
+.membership-subscribe_btn:focus {
+    outline: 2px solid #385159;
+    outline-offset: 2px;
 }
 .membership-tier-container:last-child > .membership-subscribe_btn {
     padding-left: 94px;
