@@ -50,10 +50,14 @@
 }
 @media screen and (min-width: 768px) {
     .hero {
-        background-repeat: repeat;
+        background: url("../assets/images/pattern-light-bg.svg") top repeat, url("../assets/images/pattern-glow.svg") bottom left no-repeat, #FAF5F3;
     }
 }
 @media screen and (min-width: 1440px) {
+    .hero {
+        background: url("../assets/images/pattern-light-bg.svg") top repeat, url("../assets/images/pattern-glow.svg") right bottom no-repeat, #FAF5F3;
+        background-origin: content-box;
+    }
     .hero > .hero-content {
         display: grid;
         grid-template-columns: 1fr;
