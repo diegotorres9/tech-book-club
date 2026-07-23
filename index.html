@@ -129,7 +129,8 @@
         <p> Connect with a community that speaks your language - from
           <span>Python</span> to <span>TypeScript</span> and everything in
           between. Our discussions blend technical depth with practical
-          applications.</p>
+          applications.
+        </p>
       </div>
       <picture>
         <source srcset="assets/images/image-not-average-desktop.webp"
@@ -313,7 +314,49 @@
     </div>
   </footer>
 
+  <script src="/js/gsap.min.js"></script>
+  <script src="/js/SplitText.min.js"></script>
+  <script src="/js/ScrollTrigger.min.js"></script>
 
+  <script>
+    gsap.registerPlugin(ScrollTrigger);
+    let mm = gsap.matchMedia();
+
+    mm.add("(min-width: 1440px)", () => {
+      document.querySelectorAll(".journey-steps > div").forEach(step => {
+        gsap.from(step, {
+          x: -300,
+          duration: 1.5,
+          stagger: 1.5,
+          scrollTrigger: {
+            trigger: ".journey-steps"
+          }
+        });
+      });
+    });
+
+    mm.add("(max-width: 1439px)", () => {
+      document.querySelectorAll(".journey-steps > div").forEach(step => {
+        gsap.from(step, {
+          y: 300,
+          duration: 1.5,
+          stagger: 1.5,
+          scrollTrigger: {
+            trigger: ".journey-steps"
+          }
+        });
+      });
+    });
+
+    gsap.from(".hero-copy", {
+      opacity: 0,
+      x: 100,
+      duration: 1.4,
+      ease: "power1.out"
+    });
+
+
+  </script>
 
 
 </body>
